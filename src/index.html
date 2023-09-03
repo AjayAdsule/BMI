@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
+    <!-- <link rel="stylesheet" href="main.css" /> -->
+    <link href="/dist/output.css" rel="stylesheet" />
   </head>
 
   <body class="p-4">
-    <h2>BMi </h2>
+    <form>
+      <label class="text-bold text-[22px]">Height In Cm</label>
+      <input type="text" class="height" /><br />
+      <label> weight in Kg</label>
+      <input type="text" class="weight" />
+      <button class="btn btn-primary" type="submit">Calculate</button>
+    </form>
+    <div id="result"></div>
+    <script src="app.js"></script>
   </body>
 </html>
